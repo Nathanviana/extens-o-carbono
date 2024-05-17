@@ -1,0 +1,105 @@
+{
+  "moreInformation": {
+    "message": "More information",
+    "description": "More information link title"
+  },
+  "moreInformationUrl": {
+    "message": "https://theshiftproject.org/en/carbonalyser-browser-extension/",
+    "description": "More information url"
+  },
+  "legalNotice": {
+    "message": "Legal notice",
+    "description": "Legal notice link title"
+  },
+  "legalNoticeUrl": {
+    "message": "https://theshiftproject.org/en/general-conditions-of-use/",
+    "description": "Legal notice url"
+  },
+  "start": {
+    "message": "Executar análise",
+    "description": "Run analysis button"
+  },
+  "stop": {
+    "message": "Parar análise",
+    "description": "Stop analysis button"
+  },
+  "reset": {
+    "message": "Redefinir dados",
+    "description": "Reset data button"
+  },
+  "analysisInProgress": {
+    "message": "Análise em andamento. Comece a navegar na web e depois volte aqui para obter estatísticas!",
+    "description": "Analysis in progress message"
+  },
+  "topTraffic": {
+    "message": "Os 5 principais tráfegos relacionados à sua navegação",
+    "description": "Título da lista de tráfego principal"
+  },
+  "digitalEquivalenceTitle": {
+    "message": "As emissões de CO2 relacionadas ao seu uso digital são equivalentes a:"
+  },
+  "equivalenceTitle": {
+    "message": "Em $MINUTES$ minutos de navegação, você baixou $MBTOTAL$ MB de dados. Isso exigiu $KWH$ kWh de eletricidade, ou $GCO2$ gCO2e",
+    "description": "Equivalence",
+    "placeholders": {
+      "minutes" : {
+        "content" : "$1",
+        "example" : "60"
+      },
+      "mbtotal" : {
+        "content" : "$2",
+        "example" : "10"
+      },
+      "kwh" : {
+        "content" : "$3",
+        "example" : "99"
+      },
+      "gco2" : {
+        "content" : "$4",
+        "example" : "199"
+      }
+    }
+  },
+  "selectRegionPlaceholder": {
+    "message": "Selecione sua localização"
+  },
+  "regionEuropeanUnion": {
+    "message": "European Union"
+  },
+  "regionFrance": {
+    "message": "France"
+  },
+  "regionUnitedStates": {
+    "message": "United States"
+  },
+  "regionChina": {
+    "message": "China"
+  },
+  "regionOther": {
+    "message": "Outro"
+  },
+  "selectRegionHelp": {
+    "message": "Não é obrigatório, mas o resultado será mais relevante."
+  },
+  "howToChange": {
+    "message": "Como mudar isso?"
+  },
+  "howToChangeUrl": {
+    "message": "https://blog.cidadeama.com.br/saiba-como-reduzir-a-sua-pegada-de-carbono-digital/#:~:text=Prefira%20conexões%20wi-fi%20em,uso%20das%20redes%20wi-fi.&text=Desligue%20o%20monitor%20quando%20não%20estiver%20mais%20usando%20o%20computador.&text=Cancele%20a%20assinatura%20de%20newsletters,sejam%20mais%20do%20seu%20interesse./"
+  },
+  "chargedSmartphonesUnit": {
+    "message": "smartphones carregados"
+  },
+  "kmByCarUnit": {
+    "message": "km de carro"
+  },
+  "mbTotalUnit": {
+    "message": "Mb"
+  },
+  "statsOthers": {
+    "message": "Outros"
+  },
+  "resetConfirmation": {
+    "message": "Confirmar a redefinição das estatísticas?"
+  }
+}
