@@ -1,28 +1,27 @@
 {
-  "manifest_version": 2,
-  "name": "Carbonalyser",
-  "description": "Analyse Internet usage carbon footprint",
-  "author": "TheShiftProject",
-  "version": "1.2.0",
-  "icons": {
-    "48": "icons/icon-on-48.png"
-  },
-  "permissions": [
-    "storage",
-    "webRequest",
-    "<all_urls>"
-  ],
-  "background": {
-    "scripts": [
-      "script.js"
+    "manifest_version": 3,
+    "name": "Disable Images for Carbon Reduction",
+    "version": "1.0",
+    "description": "Desativa imagens para reduzir consumo de dados e emissões de carbono.",
+    "icons": {
+      "128": "icon.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
     ]
-  },
-  "browser_action": {
-    "browser_style": true,
-    "default_popup": "popup/popup.html",
-    "default_icon": {
-      "48": "icons/icon-off-48.png"
-    }
-  },
-  "default_locale": "en"
-}
+  }
+  
